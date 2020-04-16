@@ -12,6 +12,6 @@ public class Tablice {
 
     public void wypiszElementy() {
         for (int i=0; i<liczby.length; i++);
-            System.out.println(liczby[1]);
+            System.out.println(liczby[i]);
     }
 }
