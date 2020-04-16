@@ -6,7 +6,7 @@ public class TabliceTest {
     public void testTablic(){
 
         Tablice tablice = new Tablice();
-        tablice.ustawWastosc();
-        tablice.wypiszElementy();
+        tablice.dodajStudenta();
+        tablice.przedstawStudenta();
     }
 }

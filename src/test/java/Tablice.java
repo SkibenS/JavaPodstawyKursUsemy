@@ -2,16 +2,19 @@ public class Tablice {
 
     int liczby[] = new int[5];
 
-    public void ustawWastosc() {
-        liczby[0] = 1;
-        liczby[1] = 10;
-        liczby[2] = 25;
-        liczby[3] = 100;
-        liczby[4] = 150;
+    Student studenci[] = new Student[2];
+
+    public void dodajStudenta(){
+        Student pierwszy = new Student("Tomasz", "Kot", "1");
+        Student drugi = new Student("Maja", "Kowalska", "2");
+
+        studenci[0] = pierwszy;
+        studenci[1] = drugi;
     }
 
-    public void wypiszElementy() {
-        for (int i=0; i<liczby.length; i++);
-            System.out.println(liczby[i]);
+    public void przedstawStudenta() {
+        studenci[0].przedstawSie();
+        studenci[1].przedstawSie();
+
     }
 }
