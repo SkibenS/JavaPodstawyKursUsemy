@@ -1,0 +1,2 @@
+To jest tekst dla celów naukowych.
+To jest kolejna linia.
