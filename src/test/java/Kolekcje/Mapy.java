@@ -28,5 +28,4 @@ public class Mapy {
         dziennik.put(2, "Nowy Nowak");
         System.out.println(dziennik.get(2));
     }
-
 }
