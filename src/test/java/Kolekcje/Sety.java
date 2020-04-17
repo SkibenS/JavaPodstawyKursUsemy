@@ -24,5 +24,6 @@ public class Sety {
         System.out.println(nicks.contains("Killer leszczy"));
         nicks.remove("Swinka Peppa");
         System.out.println(nicks.size());
+
     }
 }
